@@ -18,13 +18,14 @@ The [link](https://drive.google.com/file/d/1dB3t8Mgt2skerHIkU4o9S_YfpAthBUd1/vie
 
 Make sure your current working directory is the respective part directory. For example if you want to run part-1a code then your current working directory should be Part-1a. Then run the following commands.
 
+## Server
 For server go into the server folder
 
 To compile the server: gcc -pthread -g server.c
 
-To run the server: ./a.out \<server-address\> <options>
+To run the server: ./a.out \<server-address\> \<options\>
 
-For <server-address> in case of Part-1a,1b,2 the server-address has to be ipv4 and if left empty then default is localhost. For part-3 it can be either ipv4 or ipv6 and if left empty the default is ip6-localhost.
+For \<server-address\> in case of Part-1a,1b,2 the server-address has to be ipv4 and if left empty then default is localhost. For part-3 it can be either ipv4 or ipv6 and if left empty the default is ip6-localhost.
 
 For <options> there is:
  
@@ -34,15 +35,16 @@ Eg: ./a.out 127.0.0.2 -d 4
  
 Here the server address is 12.0.0.2 and delay is 4s.
 
+## Client
 For client go into the client folder
  
 To compile the client: gcc -pthread -g client.c
  
 To run the client: ./a.out <server-address> <options>
 
-For <server-address> in case of Part-1a,1b,2 the server-address has to be ipv4 and if left empty then default is localhost. For part-3 it can be either ipv4 or ipv6 and if left empty the default is ip6-localhost.
+For \<server-address\> in case of Part-1a,1b,2 the server-address has to be ipv4 and if left empty then default is localhost. For part-3 it can be either ipv4 or ipv6 and if left empty the default is ip6-localhost.
 
-For <options>
+For \<options\>
 **Options available in Part-1a and 3:**
  
 -i the interval in seconds between sending of two consecutive packets. Min is 1sec and default is 2sec.
