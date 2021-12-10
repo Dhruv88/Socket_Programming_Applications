@@ -12,7 +12,7 @@ This application allows the users to place an order in an restaurant online and 
 
 # Part-3: It is same as Part-1a except that it IPv4/IPv6 independent
 
-The link of folders for demo videos showing how to run them and brief explanation of code
+The [link](https://drive.google.com/file/d/1dB3t8Mgt2skerHIkU4o9S_YfpAthBUd1/view?usp=sharing) of folders for demo videos showing how to run them and brief explanation of code
 
 # Instructions regarding compiling the code and the command line options
 
@@ -22,7 +22,7 @@ For server go into the server folder
 
 To compile the server: gcc -pthread -g server.c
 
-To run the server: ./a.out <server-address> <options>
+To run the server: ./a.out <<server-address>> <options>
 
 For <server-address> in case of Part-1a,1b,2 the server-address has to be ipv4 and if left empty then default is localhost. For part-3 it can be either ipv4 or ipv6 and if left empty the default is ip6-localhost.
 
