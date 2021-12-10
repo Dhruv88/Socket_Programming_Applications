@@ -22,7 +22,7 @@ For server go into the server folder
 
 To compile the server: gcc -pthread -g server.c
 
-To run the server: ./a.out <<server-address>> <options>
+To run the server: ./a.out \<server-address\> <options>
 
 For <server-address> in case of Part-1a,1b,2 the server-address has to be ipv4 and if left empty then default is localhost. For part-3 it can be either ipv4 or ipv6 and if left empty the default is ip6-localhost.
 
