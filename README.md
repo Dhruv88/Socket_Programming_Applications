@@ -4,15 +4,22 @@ Consists of Three socket programming applications including applications similar
 # Part-1a: Ping like Application
 The application takes mimics the ping in windows and senda and receives echo messages and replies. Both server and client have are there
 
+[Video Explanation Link](https://www.youtube.com/watch?v=XIybmpQ_2Yo)
+
 # Part-1b: Iperf like Application
 The application is similar the iperf and calculates throughput and average delay
+
+[Video Explanation Link](https://www.youtube.com/watch?v=9HW_R0k6Yf8)
 
 # Part-2: An online ordering and notification system for restaurants
 This application allows the users to place an order in an restaurant online and gives them an accurate time estimate of time required to process the order.
 
+[Presentation Link](https://drive.google.com/file/d/12sTlEuTtOc1tVFLFgNhPMeGplTRPxdBS/view?usp=sharing)
+[Video Explanation Link](https://www.youtube.com/watch?v=md20fFqgr_g)
+
 # Part-3: It is same as Part-1a except that it IPv4/IPv6 independent
 
-The [link](https://drive.google.com/drive/folders/1CxF5veDTt0cDM1iYnxFrS0kxIqowlgVz?usp=sharing) of folders for demo videos showing how to run them and brief explanation of code
+[Video Explanation Link](https://www.youtube.com/watch?v=nrSqXOBxVh8)
 
 # Instructions regarding compiling the code and the command line options
 
